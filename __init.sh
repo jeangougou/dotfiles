@@ -75,7 +75,8 @@ parse_params() {
   return 0
 }
 
-parse_params "$@"
+# enable if needed params/arguments
+#parse_params "$@"
 setup_colors
 
 # script logic here
